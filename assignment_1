@@ -1,0 +1,51 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+*
+'hello'
+-87.8
+-
+/
++
+6
+
+Answer 1 :
+Values :'hello' , -87.8 ,6
+Expressions : *,-,/,+
+
+2. What is the difference between string and variable?
+Answer 2: A variable is like container which store types of information , the values will be string , integere or boolean value . String is typeof information that variable holds. 
+
+3. Describe three different data types.
+Answer 3: Numeric, Sequense and boolean.
+
+4. What is an expression made up of? What do all expressions do?
+Answer 4: A expression is made of operator and operands means an expression contains some variables and operator . All expression produce some kind of output or any other value.
+
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+Answer 5: An expression produces other value/output whereas statement does produce any kind of value/output.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+Answer 6 : bacon contain value 23.
+
+7. What should the values of the following two terms be?
+'spam'+ 'spamspam'
+'spam'* 3
+Answer 7: both terms wil produce same value as 'spamspamspam'
+'spamspamspam'
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Answer: a variable name must be start with letter or underscore but cannot start with number.
+
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+Answer 9:We can use int(),float(),str() function to get the integer, floating-point number, or string
+version of a value.
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten' + 99 + 'burritos.'
+Answer 10: We can not concaniate  a string with integer using + operator, By converting the integer to string we fix this, below is the same code.
+'I have eaten' + str(99) + 'burritos.'
