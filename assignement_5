@@ -1,0 +1,39 @@
+1. What does an empty dictionary's code look like?
+Ans -> An empty dictionary's code looks like two curly brackets: {}
+
+2. What is the value of a dictionary value with the key 'foo' and the value 42?
+Ans -> The value of a dictionary value with the key 'foo' and the value 42 is below 
+{'foo': 42}
+
+3. What is the most significant distinction between a dictionary and a list?
+Ans -> The list store data in an ordered collection, whereas the dictionaries store the data in the form of key-value pairs using the hashtable structure.
+
+4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
+Ans ->
+spam = {'bar': 100}
+spam['foo']
+output:-
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+ in 
+      1 spam = {'bar': 100}
+----> 2 spam['foo']
+
+KeyError: 'foo'
+We will get a KeyError error.
+
+5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and
+'cat' in spam.keys()?
+Ans -> There is no difference. both operator checks whether a value exists as a key in the dictionary or not.
+
+6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and
+'cat' in spam.values()?
+Ans -> the expression 'cat' in spam check if the key exist in spam dictionary or not and expression 'cat' in spam.values() will check if value 'cat' is exist in dictonary value or not and here it will give result as false.
+
+7. What is a shortcut for the following code?
+if 'color' not in spam:
+spam['color'] = 'black'
+Ans -> spam.setdefault('color', 'black')
+
+8. How do you "pretty print" dictionary values using which module and function?
+Ans -> we can import pprint and can pprint() function to use pretty print.
